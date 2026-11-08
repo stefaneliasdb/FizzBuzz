@@ -38,11 +38,11 @@ public class MultiplesTest {
     }
 
 //    // uncomment once you implement the overloaded version of multiples
-//    @Test
-//    public void testDefault() {
-//        assertEquals(466,
-//            Multiples.multiples(),
-//            "Multiples.multiples() is incorrect for default values");
-//    }
+    @Test
+    public void testDefault() {
+        assertEquals(466,
+            Multiples.multiples(),
+            "Multiples.multiples() is incorrect for default values");
+    }
 
 }
